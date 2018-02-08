@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Perfect UI</string>
+    <string name="download_failed">Attempted download failed</string>
+</resources>

@@ -4,6 +4,7 @@ import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Handler;
 import android.os.Looper;
 import android.support.v4.content.ContextCompat;
@@ -23,7 +24,9 @@ public class MuzeiArtSource extends com.google.android.apps.muzei.api.MuzeiArtSo
         super("MuzeiArtSource");
     }
     protected void onUpdate(int reason) {
-        if (supplier != null) supplier = (Supplier) getApplicationContext();
+        if (supplier != null) if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+            supplier = (Supplier) getApplicationContext();
+        }
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.INTERNET) == PackageManager.PERMISSION_GRANTED) {
             new Thread() {
                 @Override

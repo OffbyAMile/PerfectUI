@@ -1,4 +1,53 @@
 <resources>
     <string name="app_name">Perfect UI</string>
-    <string name="download_failed">Attempted download failed</string>
+    <!-- description -->
+    <string name="app_desc">Collection of walls to perfect the UI of choice</string>
+    <!-- longer description -->
+    <string name="description">Wallpapers for all UI choices</string>
+    <!-- Activity and fragment names -->
+    <string name="title_home">Home</string>
+    <string name="title_wallpapers">Wallpapers</string>
+    <string name="title_favorites">Favorites</string>
+    <string name="title_about">About</string>
+    <string name="title_search">Search</string>
+
+    <string name="featured">Featured</string>
+    <string name="all">All</string>
+
+    <!-- toast messages -->
+    <string name="set_wallpaper_success">Wall set</string>
+    <string name="set_wallpaper_failed">Wall not set</string>
+    <string name="download_failed">Download failed</string>
+
+    <!-- dialog messages -->
+    <string name="credit_required">Credit Required</string>
+    <string name="credit_required_msg">The author has requested credit be given for this wallpaper.</string>
+    <string name="download_complete">Download Complete</string>
+    <string name="download_complete_msg">Your download is complete</string>
+
+    <!-- changelog popup that displays when version is different -->
+    <string name="changelog">Implement the dialog for the changelog here!</string>
+
+    <!-- boolean for contributors -->
+    <bool name="show_contributors">true</bool>
+    <string name="contributors">Contributors</string>
+
+    <string-array name="people_names" formatted="false">
+        <item>Jeremy DuBois</item>
+    </string-array>
+    <string-array name="people_icons" formatted="false">
+        <item>add image resource here</item>
+    </string-array>
+    <string-array name="people_desc" formatted="false">
+        <item>add desc here</item>
+    </string-array>
+    <string-array name="people_urls" formatted="false">
+        <item>add website link here</item>
+    </string-array>
+    <string-array name="wp_names" formatted="false">
+        <item>add wallpaper names</item>
+    </string-array>
+    <string-array name="wp_urls" formatted="false">
+        <item>add wallpaper urls</item>
+    </string-array>
 </resources>

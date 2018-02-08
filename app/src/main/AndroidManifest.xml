@@ -16,7 +16,10 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
         <service android:name=".MuzeiArtSource" />
+
+        <activity android:name=".AboutActivity"></activity>
     </application>
 
 </manifest>
